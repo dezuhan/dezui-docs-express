@@ -1,0 +1,11 @@
+{
+	"name": "module-dezui-express",
+	"version": "0.0.0",
+	"private": true,
+	"dependencies": {
+		"boxicons": "^2.1.2"
+	},
+	"devDependencies": {
+		"@types/node": "^18.7.23"
+	}
+}

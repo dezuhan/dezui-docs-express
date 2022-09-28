@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="DezUI is a build fast, minimalist & elegant UI to start a project with a minimalist and elegant design.">
+	<meta name="keywords" content="CSS, Framework, Minimalist, Elegant, Design, SCSS">
+	<meta name="author" content="Dzuhan Ramadhan">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:description" content="DezUI is a build fast, minimalistic & elegant css framework for starting projects with a minimalist and elegant design.">
+	<meta property="og:image" content="/assets/main-square.png">
+	
+
+	<title>DezUI - CSS Frameworks</title>
+
+
+	<link rel="stylesheet" href="/dezui/css/core.css">
+	<link rel="stylesheet" href="/style/{{file}}.css">
+	<link rel="icon" href="/img/logo/main.svg">
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script src="/javascripts/jquery.js"></script>
+</head>
+<body>
+
+	<header class="position-{{position}} width-full bg-white">
+		<nav>
+			<section class="navbar-section">
+				<a class="navbar-logo" href="/"><img src="/img/logo/main.svg" alt="">DezUI</a>
+			</section>
+			<section class="navbar-section"></section>
+			<section class="navbar-section">
+				<a href="https://github.com/DezUI/DezUI/stargazers" target="_blank"><img src="https://img.shields.io/github/stars/dezui/dezui?style=social" alt=""></a>
+				<a class="navbar-logo" href="https://github.com/dezui"><img src="/icon/logos/bxl-github.svg" alt="Github"></a>
+			</section>
+		</nav>
+
+	</header>
+
+	<main class="container">
+		{{{body}}}
+	</main>
+
+
+	<footer>
+		<nav class="container flex column">
+			<section class="navbar-section flex wrap">
+				<div id="version"></div>
+				<a class="docs-link-version" href="">Docs</a>
+				<a href="/docs/changelog">Changelog</a>
+				{{!-- <a href="/icons">Icons</a> --}}
+				{{!-- <a href="/themes">Themes</a> --}}
+				{{!-- <a href="/example">Example</a> --}}
+				<a href="/contribute">Contribute</a>
+				<a href="https://github.com/DezUI/" target="_blank">Github</a>
+				<a href="https://twitter.com/dezuicss/" target="_blank">Twitter</a>
+			</section>
+			<section class="info-section">
+				<p>Design and built with &#9749; + &#128187; and Proudly made in <span class="text-info">Indonesia</span> by <a href="https://dezuhan.github.io">Dzuhan Ramadhan</a>. Source code license <a href="https://github.com/dezui/tree/stable/LICENSE">MIT</a>. Docs <a rel="license" href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p><br>
+			</section>
+		</nav>
+	</footer>
+
+
+	<script src="/js/pages/version.js"></script>
+	<script src="/js/{{file}}.js"></script>
+</body>
+</html>

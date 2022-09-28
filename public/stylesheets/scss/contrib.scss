@@ -1,0 +1,16 @@
+#contributor-count, #partner-count {
+	// display: grid;
+	// grid-template-columns: repeat(5, 1fr);
+	display: flex;
+	flex-wrap: wrap;
+	.contributor, .partner {
+		height: 50px;
+		box-sizing: border-box;
+		a {
+			img {
+				height: 100%;
+
+			}
+		}
+	}
+}

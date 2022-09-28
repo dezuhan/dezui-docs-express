@@ -1,0 +1,11 @@
+#contributor-count, #partner-count {
+  display: flex;
+  flex-wrap: wrap;
+}
+#contributor-count .contributor, #contributor-count .partner, #partner-count .contributor, #partner-count .partner {
+  height: 50px;
+  box-sizing: border-box;
+}
+#contributor-count .contributor a img, #contributor-count .partner a img, #partner-count .contributor a img, #partner-count .partner a img {
+  height: 100%;
+}

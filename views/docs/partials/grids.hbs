@@ -1,0 +1,49 @@
+
+<h5>Grids <a href="#grids">#</a></h5>
+<p>We use a maximum of 12 grids. Grids will not be responsive before being assigned a <code>responsive</code> or <code>wrap</code> class, this class works when the screen size is <code>600px</code> which was initially flexible <code>row</code> change <code>col</code></p>
+
+<br>
+
+<div class="example flex column" style="gap: 10px;">
+	<div style="gap:10px;" class="flex">
+		<div class="col-1 grid-example text-align-center" style="padding: 0 5px;border: 1px solid #ccc;">ONE</div>
+		<div class="col-11 grid-example text-align-center" style="padding: 0 5px;border: 1px solid #ccc;">ELEVEN</div>
+	</div>
+	<div style="gap:10px;" class="flex">
+		<div class="col-2 grid-example text-align-center" style="padding: 0 5px;border: 1px solid #ccc;">TWO</div>
+		<div class="col-10 grid-example text-align-center" style="padding: 0 5px;border: 1px solid #ccc;">TEN</div>
+	</div>
+	<div style="gap:10px;" class="flex">
+		<div class="col-3 grid-example text-align-center" style="padding: 0 5px;border: 1px solid #ccc;">THREE</div>
+		<div class="col-9 grid-example text-align-center" style="padding: 0 5px;border: 1px solid #ccc;">NINE</div>
+	</div>
+	<div style="gap:10px;" class="flex">
+		<div class="col-4 grid-example text-align-center" style="padding: 0 5px;border: 1px solid #ccc;">FOUR</div>
+		<div class="col-8 grid-example text-align-center" style="padding: 0 5px;border: 1px solid #ccc;">EIGHT</div>
+	</div>
+	<div style="gap:10px;" class="flex">
+		<div class="col-5 grid-example text-align-center" style="padding: 0 5px;border: 1px solid #ccc;">FIVE</div>
+		<div class="col-7 grid-example text-align-center" style="padding: 0 5px;border: 1px solid #ccc;">SEVEN</div>
+	</div>
+	<div style="gap:10px;" class="flex">
+		<div class="col-6 grid-example text-align-center" style="padding: 0 5px;border: 1px solid #ccc;">SIX/ONE</div>
+		<div class="col-6 grid-example text-align-center" style="padding: 0 5px;border: 1px solid #ccc;">SIX/ONE</div>
+	</div>
+	<div style="gap:10px;" class="flex responsive">
+		<div class="col-1 grid-example text-align-center" style="padding: 0 5px;border: 1px solid #ccc;">ONE</div>
+		<div class="col-1 grid-example text-align-center" style="padding: 0 5px;border: 1px solid #ccc;">ONE</div>
+		<div class="col-1 grid-example text-align-center" style="padding: 0 5px;border: 1px solid #ccc;">ONE</div>
+		<div class="col-1 grid-example text-align-center" style="padding: 0 5px;border: 1px solid #ccc;">ONE</div>
+		<div class="col-1 grid-example text-align-center" style="padding: 0 5px;border: 1px solid #ccc;">ONE</div>
+		<div class="col-1 grid-example text-align-center" style="padding: 0 5px;border: 1px solid #ccc;">ONE</div>
+		<div class="col-1 grid-example text-align-center" style="padding: 0 5px;border: 1px solid #ccc;">ONE</div>
+		<div class="col-1 grid-example text-align-center" style="padding: 0 5px;border: 1px solid #ccc;">ONE</div>
+		<div class="col-1 grid-example text-align-center" style="padding: 0 5px;border: 1px solid #ccc;">ONE</div>
+		<div class="col-1 grid-example text-align-center" style="padding: 0 5px;border: 1px solid #ccc;">ONE</div>
+		<div class="col-1 grid-example text-align-center" style="padding: 0 5px;border: 1px solid #ccc;">ONE</div>
+		<div class="col-1 grid-example text-align-center" style="padding: 0 5px;border: 1px solid #ccc;">ONE</div>
+	</div>
+</div>
+<div class="code">
+	<pre><code><ol><li>&lt;!-- Class "flex" default flex-direction: row --&gt;</li><li>&lt;div class="flex"&gt;</li><li>    &lt;div class="col"&gt;...&lt;/div&gt;	&lt;!-- "col" & "col-1" is the same thing --&gt;</li><li>    &lt;div class="col-1"&gt;...&lt;/div&gt;</li><li>&lt;/div&gt;</li><li></li><li>&lt;!-- Use class "row" after "flex" flex-direction: row --&gt;</li><li>&lt;div class="flex row"&gt;</li><li>    &lt;div class="col-5"&gt;...&lt;/div&gt;</li><li>    &lt;div class="col-7"&gt;...&lt;/div&gt;</li><li>&lt;/div&gt;</li><li></li><li>&lt;!-- Use class "column" for flex-direction: column --&gt;</li><li>&lt;div class="flex column"&gt;</li><li>    &lt;div class="col-4"&gt;...&lt;/div&gt;</li><li>    &lt;div class="col-8"&gt;...&lt;/div&gt;</li><li>&lt;/div&gt;</li><li></li><li>&lt;!-- Use class "responsive" for auto wrap (column) in breakpoints $phablet --&gt;</li><li>&lt;div class="flex responsive"&gt;</li><li>    &lt;div class="col-2"&gt;...&lt;/div&gt;</li><li>    &lt;div class="col-10"&gt;...&lt;/div&gt;</li><li>&lt;/div&gt;</li></ol></code></pre>
+</div>
